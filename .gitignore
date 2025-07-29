@@ -1,0 +1,2 @@
+#the .gitignore file is used to specify files and directories that should be ignored by version control systems.
+__pycache__
