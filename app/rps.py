@@ -1,13 +1,19 @@
-# This is my Rock-Paper-Scissors game implementation
+# THIS IS MY ROCK PAPER SCISSORS GAME
 
-print("Welcome to Rock-Paper-Scissors!")
+print("WELCOME TO MY GAME...")
+
+player_choice = input("Please select an option ('rock', 'paper', 'scissors'): ")
+print("USER CHOSE:", player_choice)
+
+# todo: validation step
 
 import random
 
-player_choice = input("Enter your choice (rock, paper, scissors): ").lower()
-computer_choice = random.choice(["rock", "paper", "scissors"])
+VALID_OPTIONS = ["rock", "paper", "scissors"]
 
-print(f"Computer chose: {computer_choice}")
-print(f"You chose: {player_choice}")
+computer_choice = random.choice(VALID_OPTIONS)
+print("COMPUTER CHOSE:", computer_choice)
 
-#todo: Implement game logic to determine the winnner
+# todo: determine the winner
+
+print("WINNER: TODO")
