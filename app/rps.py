@@ -13,9 +13,7 @@ VALID_OPTIONS = ["rock", "paper", "scissors"]
 
 computer_choice = random.choice(VALID_OPTIONS)
 print("COMPUTER CHOSE:", computer_choice)
-
 # todo: determine the winner
-
 # bottom of the app/rps.py file:
 
 if player_choice == computer_choice:
