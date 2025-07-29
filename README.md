@@ -1,7 +1,9 @@
 # my-first-repo-summer-2025
 
-I added this sentance using the GitHub online interface to edit the file.
+## Usage
 
-This was a change from VS Code
+Play a game of rock, paper scissors:
 
-Here is an edit made on the new feature branch
+```sh
+python app/rps.py
+```
